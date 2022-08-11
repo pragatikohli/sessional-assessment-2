@@ -253,3 +253,26 @@ body.open .hamburger .bar:last-child {
   left: 0;
   border-radius: 0 0 80px 80px;
 }
+/*-------------------Blog Area Styling-----------------------*/
+.blog .container {
+  background-color: var(--bg-color-2);
+  width: 100%;
+  height: 100%;
+  transition: 0.5s transform 0.3s background-color;
+}
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3rem;
+}
+#search {
+  height: 3rem;
+  width: 20rem;
+  border: 2px solid hsl(var(--hue-1), 41%, 14%);
+  border-radius: 5px;
+}
+#div1 {
+  display: flex;
+  flex-direction: column;
+}
