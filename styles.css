@@ -6,7 +6,7 @@
   --hue-2: 47;
   --main-color-1: hsl(var(--hue-1), 100%, 60%);
   --main-color-dark-1: hsl(var(--hue-1), 69%, 50%);
-  --main-color-2: hsl(var(--hue-2), 100%, 61%);
+  --main-color-2: hsl(var(--hue-1), 100%, 61%);
   --main-color-dark-2: hsl(var(--hue-2), 82%, 55%);
   --section-padding: 7rem;
 }
@@ -23,7 +23,7 @@ body {
   --bg-color-1: hsl(var(--hue-1), 100%, 95.5%);
   --bg-color-2: #fff;
   --bg-color-3: hsl(var(--hue-1), 100%, 98%);
-  --bg-color-transparent: rgba(83, 78, 78, 0.6);
+  --bg-color-transparent: rgba(46, 22, 22, 0.6);
   --heading-color: hsl(var(--hue-1), 41%, 14%);
   --text-color: hsl(var(--hue-1), 7%, 7%);
 }
@@ -74,7 +74,7 @@ ul {
 .sub-heading {
   color: var(--heading-color);
   text-transform: uppercase;
-  font-size: 0.85rem;
+  font-size: 1rem;
   letter-spacing: 0.5px;
   border-left: 3px solid var(--main-color-2);
   padding: 0.13rem 0.75rem;
